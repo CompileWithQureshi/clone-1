@@ -1,23 +1,38 @@
+import { FiChevronLeft, FiChevronRight, FiSidebar } from "react-icons/fi";
+import { BiSolidAdjust } from "react-icons/bi";
+import { UilLock } from "@iconscout/react-unicons";
+
 function Nav() {
   return (
-    <div className=" max-w-screen-5xl max-h-7  flex justify-evenly  space-x-7">
-      <div className="flex space-x-2 p-3">
+    <div className=" max-w-screen-5xl max-h-7  flex  justify-between  items-center">
+      <div className="flex space-x-1 p-3">
         <span className="w-3 h-3 bg-red-600 rounded-full text-red-600"></span>
         <span className="w-3 h-3 bg-orange-600 rounded-full text-red-600"></span>
         <span className="w-3 h-3 bg-green-600 rounded-full text-green-600"></span>
-        <p>icon</p>
+        <FiSidebar />
+        <FiChevronLeft />
+
+        <FiChevronRight />
+      </div>
+      <div className="  flex gap-4  ">
+        <BiSolidAdjust />
+        <div
+          className="bg-slate-400 w-[405px]
+           h-6 border flex p-22 items-center justify-between rounded-md"
+        >
+          <p className="pl-10 flex">
+            <UilLock />
+            shiptrack.com/dashboard
+          </p>
+          <p> reload</p>
+        </div>
+      </div>
+      <div>
+        <span>icon</span>
+        <span>icon</span>
+        <span>ico</span>
         <span>icon</span>
       </div>
-
-      <span>icon</span>
-      <span className=" max-w-2xl h-5 border-2">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi
-      </span>
-
-      <span>icon</span>
-      <span>icon</span>
-      <span>ico</span>
-      <span>icon</span>
     </div>
   );
 }
