@@ -3,11 +3,15 @@ import { BiSolidAdjust } from "react-icons/bi";
 // import { UilLock } from "@iconscout/react-unicons";
 import { UilRedo } from "@iconscout/react-unicons";
 import { UisLock } from "@iconscout/react-unicons-solid";
+import { UitArrowCircleDown } from "@iconscout/react-unicons-thinline";
+import { UitUploadAlt } from "@iconscout/react-unicons-thinline";
+import { UilPlus } from "@iconscout/react-unicons";
+import { IoCopyOutline } from "react-icons/io5";
 
 function Nav() {
   return (
-    <div className=" max-w-screen-5xl max-h-7  flex  justify-between  items-center">
-      <div className="flex space-x-1 p-3">
+    <div className=" max-w-screen-5xl max-h-7  flex  justify-between  items-center  overflow-hidden py-6">
+      <div className="flex space-x-2 p-3 items-center gap-2">
         <span className="w-3 h-3 bg-red-600 rounded-full text-red-600"></span>
         <span className="w-3 h-3 bg-orange-600 rounded-full text-red-600"></span>
         <span className="w-3 h-3 bg-green-600 rounded-full text-green-600"></span>
@@ -16,13 +20,13 @@ function Nav() {
 
         <FiChevronRight />
       </div>
-      <div className="  flex gap-4  ">
+      <div className="  flex gap-4  items-center">
         <BiSolidAdjust />
         <div
-          className="bg-slate-400 w-[405px]
-           h-6 border flex p-22 items-center justify-between rounded-md"
+          className="bg-[#F0F7F4] w-[605px]
+           h-6 border flex pl-22 items-center justify-between rounded-md"
         >
-          <p className="pl-10 flex text-sm">
+          <p className=" flex text-sm  pl-60">
             <UisLock size="18 " />
             shiptrack.com/dashboard
           </p>
@@ -32,11 +36,11 @@ function Nav() {
           </p>
         </div>
       </div>
-      <div>
-        <span>icon</span>
-        <span>icon</span>
-        <span>ico</span>
-        <span>icon</span>
+      <div className="flex  justify-around space-x-4 pr-4 items-center">
+        <UitArrowCircleDown size="15" />
+        <UitUploadAlt size="15" />
+        <UilPlus size="15" />
+        <IoCopyOutline size="15" />
       </div>
     </div>
   );
