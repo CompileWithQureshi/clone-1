@@ -1,6 +1,8 @@
 import { FiChevronLeft, FiChevronRight, FiSidebar } from "react-icons/fi";
 import { BiSolidAdjust } from "react-icons/bi";
-import { UilLock } from "@iconscout/react-unicons";
+// import { UilLock } from "@iconscout/react-unicons";
+import { UilRedo } from "@iconscout/react-unicons";
+import { UisLock } from "@iconscout/react-unicons-solid";
 
 function Nav() {
   return (
@@ -20,11 +22,14 @@ function Nav() {
           className="bg-slate-400 w-[405px]
            h-6 border flex p-22 items-center justify-between rounded-md"
         >
-          <p className="pl-10 flex">
-            <UilLock />
+          <p className="pl-10 flex text-sm">
+            <UisLock size="18 " />
             shiptrack.com/dashboard
           </p>
-          <p> reload</p>
+          <p>
+            {" "}
+            <UilRedo size="15" />
+          </p>
         </div>
       </div>
       <div>
