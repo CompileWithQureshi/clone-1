@@ -1,11 +1,12 @@
 import { FiChevronLeft, FiChevronRight, FiSidebar } from "react-icons/fi";
 import { BiSolidAdjust } from "react-icons/bi";
 // import { UilLock } from "@iconscout/react-unicons";
-import { UilRedo } from "@iconscout/react-unicons";
+import { UilRedo, UilPlus } from "@iconscout/react-unicons";
 import { UisLock } from "@iconscout/react-unicons-solid";
-import { UitArrowCircleDown } from "@iconscout/react-unicons-thinline";
-import { UitUploadAlt } from "@iconscout/react-unicons-thinline";
-import { UilPlus } from "@iconscout/react-unicons";
+import {
+  UitArrowCircleDown,
+  UitUploadAlt,
+} from "@iconscout/react-unicons-thinline";
 import { IoCopyOutline } from "react-icons/io5";
 
 function Nav() {
