@@ -11,7 +11,7 @@ import { IoCopyOutline } from "react-icons/io5";
 
 function Nav() {
   return (
-    <div className=" max-w-screen-5xl h-4  flex  justify-between  items-center  border-b-2  py-6">
+    <div className=" max-w-screen-5xl h-4  flex   justify-between   items-center  border-b-2  py-6">
       <div className="flex space-x-2 p-3  items-center gap-2">
         <span className="w-3 h-3 bg-red-600 rounded-full text-red-600"></span>
         <span className="w-3 h-3 bg-orange-600 rounded-full text-red-600"></span>
