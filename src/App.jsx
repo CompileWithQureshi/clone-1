@@ -22,7 +22,7 @@ const Container = () => {
   return (
     <>
       <main>
-        <div className=" w-4xl h-fit border border-red-200  rounded-xl    m-9 mx-auto ">
+        <div className=" w-fit h-fit border border-red-200  rounded-xl    m-9 mx-auto ">
           {/* this is navbar */}
           <Nav />
           {/* this content side and middle */}

@@ -26,8 +26,8 @@ function Main() {
           </div>
         </div>
         <Cards />
-        <Cards />
-        <Cards />
+        {/* <Cards /> */}
+        {/* <Cards /> */}
       </div>
     </>
   );
