@@ -2,6 +2,7 @@ import { FiSearch } from "react-icons/fi";
 // import { HiMiniBell } from "react-icons/hi2";
 import { HiMiniBell } from "react-icons/hi2";
 import Cards from "./cards";
+import Client from "./clieent-activity";
 
 function Main() {
   return (
@@ -26,6 +27,7 @@ function Main() {
           </div>
         </div>
         <Cards />
+        <Client />
         {/* <Cards /> */}
         {/* <Cards /> */}
       </div>
