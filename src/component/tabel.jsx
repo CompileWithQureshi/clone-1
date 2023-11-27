@@ -7,7 +7,7 @@ export const TableComponent = () => {
   return (
     <Table showCheckbox={true}>
       <Table.Caption>
-        <div className="my-5 flex items-center justify-between px-6">
+        <div className="my-2 flex items-center justify-between px-6">
           <div className="flex items-center gap-5">
             <p className="text-body-1 font-semibold text-metal-600">
               Team member
@@ -19,7 +19,7 @@ export const TableComponent = () => {
         </div>
       </Table.Caption>
       <Table.Head>
-        <Table.HeadCell className="min-w-[290px]">
+        <Table.HeadCell className="min-w-[290px] ">
           <p className="text-body-6 font-medium text-metal-400">Type</p>
         </Table.HeadCell>
         <Table.HeadCell>Status</Table.HeadCell>

@@ -22,11 +22,11 @@ const Container = () => {
   return (
     <>
       <main>
-        <div className=" w-fit h-fit border border-red-200  rounded-xl    m-9 mx-auto ">
+        <div className=" w-fit h-fit border   rounded-xl    m-9 mx-auto ">
           {/* this is navbar */}
           <Nav />
           {/* this content side and middle */}
-          <div className="gap-2 flex border-4 ">
+          <div className="gap-2 flex ">
             <Sidebar />
             <Main />
             <br />

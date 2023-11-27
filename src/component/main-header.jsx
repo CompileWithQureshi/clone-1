@@ -8,7 +8,7 @@ function Main() {
   return (
     <>
       <div className=" flex-col w-full">
-        <div className="flex border-white-700  border-b-2 h-11 justify-between items-center">
+        <div className="flex   border-b-2 h-11 justify-between items-center">
           <p className=" text-lg font-bold">Dashboard</p>
           <div className="flex  items-center">
             <div className=" w-fit h-6 flex justify-start items-center border rounded-md  gap-1">
